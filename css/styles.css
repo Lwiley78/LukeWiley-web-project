@@ -1,0 +1,57 @@
+/* ===== Global Page Styling ===== */
+body {
+    background-color: #f2f2f2;   /* Required: background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+    background-color: #003366;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;   /* Required: hover effect */
+}
+
+/* ===== Headers ===== */
+h1 {
+    color: #003366;
+    font-size: 36px;   /* Required: different font sizes */
+    margin: 20px;
+}
+
+h2, h3 {
+    color: #005599;
+    font-size: 24px;
+    margin: 20px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    font-size: 18px;   /* Required: font size */
+    color: #333;       /* Required: font color */
+    margin: 20px;
+    line-height: 1.5;
+}
+
+/* ===== Lists ===== */
+ul li, ol li {
+    margin: 10px 40px;
+    font-size: 18px;
+}
+
+/* ===== Sections (optional but helpful) ===== */
+section {
+    margin: 20px;
+    padding: 15px;
+}
